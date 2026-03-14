@@ -8,7 +8,7 @@ converged = false;
 
  % Initial guesses
     H1 = 1;  % Small initial value
-    H2 = 15;   % Large initial value
+    H2 = 20;   % Large initial value
 
     MRL_H1 = calculate_IC_MRL(H1, lambda, p, r, m, n, T_0, d); 
     MRL_H2 = calculate_IC_MRL(H2, lambda, p, r, m, n, T_0, d);
